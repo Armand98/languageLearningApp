@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    tools:context=".LearnActivity">
+
+    <TextView
+        android:id="@+id/textViewPointsCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#ff0000"
+        android:visibility="invisible"
+        android:text="Punkty"/>
+
+    <TextView
+        android:id="@+id/textViewQuestionsCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="5/10"/>
+
+
+    <TextView
+        android:id="@+id/textViewTestTranslationMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:text="Przetłumacz:"/>
+
+    <TextView
+        android:id="@+id/textViewWordToTranslate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Word to translate " />
+
+    <EditText
+        android:id="@+id/inputTestWord"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnNextQuestion"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="300dp"
+        android:text="Następny"/>
+
+</LinearLayout>
